@@ -1,0 +1,1291 @@
+./sim --map ../maps/warehouse_small.map --planner pibt --label PIBT --agents 50 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner pibt --label PIBT --agents 50 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner pibt --label PIBT --agents 50 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner pibt --label PIBT --agents 50 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner pibt --label PIBT --agents 50 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner hpibt --label H-PIBT --agents 50 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner hpibt --label H-PIBT --agents 50 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner hpibt --label H-PIBT --agents 50 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner hpibt --label H-PIBT --agents 50 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner hpibt --label H-PIBT --agents 50 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner wpp --label WPP --agents 50 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner wpp --label WPP --agents 50 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner wpp --label WPP --agents 50 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner wpp --label WPP --agents 50 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner wpp --label WPP --agents 50 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --label CA-PIBT --agents 50 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --label CA-PIBT --agents 50 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --label CA-PIBT --agents 50 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --label CA-PIBT --agents 50 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --label CA-PIBT --agents 50 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 50 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 50 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 50 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 50 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 50 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 50 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 50 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 50 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 50 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 50 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 50 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 50 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 50 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 50 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 50 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner pibt --label PIBT --agents 100 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner pibt --label PIBT --agents 100 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner pibt --label PIBT --agents 100 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner pibt --label PIBT --agents 100 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner pibt --label PIBT --agents 100 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner hpibt --label H-PIBT --agents 100 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner hpibt --label H-PIBT --agents 100 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner hpibt --label H-PIBT --agents 100 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner hpibt --label H-PIBT --agents 100 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner hpibt --label H-PIBT --agents 100 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner wpp --label WPP --agents 100 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner wpp --label WPP --agents 100 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner wpp --label WPP --agents 100 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner wpp --label WPP --agents 100 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner wpp --label WPP --agents 100 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --label CA-PIBT --agents 100 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --label CA-PIBT --agents 100 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --label CA-PIBT --agents 100 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --label CA-PIBT --agents 100 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --label CA-PIBT --agents 100 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 100 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 100 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 100 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 100 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 100 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 100 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 100 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 100 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 100 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 100 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 100 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 100 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 100 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 100 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 100 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner pibt --label PIBT --agents 150 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner pibt --label PIBT --agents 150 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner pibt --label PIBT --agents 150 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner pibt --label PIBT --agents 150 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner pibt --label PIBT --agents 150 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner hpibt --label H-PIBT --agents 150 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner hpibt --label H-PIBT --agents 150 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner hpibt --label H-PIBT --agents 150 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner hpibt --label H-PIBT --agents 150 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner hpibt --label H-PIBT --agents 150 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner wpp --label WPP --agents 150 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner wpp --label WPP --agents 150 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner wpp --label WPP --agents 150 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner wpp --label WPP --agents 150 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner wpp --label WPP --agents 150 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --label CA-PIBT --agents 150 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --label CA-PIBT --agents 150 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --label CA-PIBT --agents 150 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --label CA-PIBT --agents 150 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --label CA-PIBT --agents 150 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 150 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 150 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 150 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 150 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 150 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 150 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 150 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 150 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 150 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 150 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 150 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 150 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 150 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 150 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 150 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner pibt --label PIBT --agents 200 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner pibt --label PIBT --agents 200 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner pibt --label PIBT --agents 200 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner pibt --label PIBT --agents 200 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner pibt --label PIBT --agents 200 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner hpibt --label H-PIBT --agents 200 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner hpibt --label H-PIBT --agents 200 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner hpibt --label H-PIBT --agents 200 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner hpibt --label H-PIBT --agents 200 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner hpibt --label H-PIBT --agents 200 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner wpp --label WPP --agents 200 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner wpp --label WPP --agents 200 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner wpp --label WPP --agents 200 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner wpp --label WPP --agents 200 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner wpp --label WPP --agents 200 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --label CA-PIBT --agents 200 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --label CA-PIBT --agents 200 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --label CA-PIBT --agents 200 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --label CA-PIBT --agents 200 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --label CA-PIBT --agents 200 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 200 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 200 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 200 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 200 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 200 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 200 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 200 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 200 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 200 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 200 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 200 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 200 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 200 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 200 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 200 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner pibt --label PIBT --agents 250 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner pibt --label PIBT --agents 250 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner pibt --label PIBT --agents 250 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner pibt --label PIBT --agents 250 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner pibt --label PIBT --agents 250 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner hpibt --label H-PIBT --agents 250 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner hpibt --label H-PIBT --agents 250 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner hpibt --label H-PIBT --agents 250 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner hpibt --label H-PIBT --agents 250 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner hpibt --label H-PIBT --agents 250 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner wpp --label WPP --agents 250 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner wpp --label WPP --agents 250 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner wpp --label WPP --agents 250 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner wpp --label WPP --agents 250 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner wpp --label WPP --agents 250 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --label CA-PIBT --agents 250 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --label CA-PIBT --agents 250 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --label CA-PIBT --agents 250 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --label CA-PIBT --agents 250 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --label CA-PIBT --agents 250 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 250 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 250 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 250 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 250 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 250 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 250 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 250 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 250 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 250 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 250 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 250 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 250 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 250 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 250 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 250 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner pibt --label PIBT --agents 300 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner pibt --label PIBT --agents 300 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner pibt --label PIBT --agents 300 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner pibt --label PIBT --agents 300 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner pibt --label PIBT --agents 300 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner hpibt --label H-PIBT --agents 300 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner hpibt --label H-PIBT --agents 300 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner hpibt --label H-PIBT --agents 300 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner hpibt --label H-PIBT --agents 300 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner hpibt --label H-PIBT --agents 300 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner wpp --label WPP --agents 300 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner wpp --label WPP --agents 300 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner wpp --label WPP --agents 300 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner wpp --label WPP --agents 300 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner wpp --label WPP --agents 300 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --label CA-PIBT --agents 300 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --label CA-PIBT --agents 300 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --label CA-PIBT --agents 300 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --label CA-PIBT --agents 300 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --label CA-PIBT --agents 300 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 300 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 300 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 300 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 300 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 300 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 300 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 300 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 300 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 300 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 300 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 300 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 300 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 300 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 300 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 300 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner pibt --label PIBT --agents 350 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner pibt --label PIBT --agents 350 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner pibt --label PIBT --agents 350 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner pibt --label PIBT --agents 350 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner pibt --label PIBT --agents 350 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner hpibt --label H-PIBT --agents 350 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner hpibt --label H-PIBT --agents 350 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner hpibt --label H-PIBT --agents 350 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner hpibt --label H-PIBT --agents 350 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner hpibt --label H-PIBT --agents 350 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner wpp --label WPP --agents 350 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner wpp --label WPP --agents 350 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner wpp --label WPP --agents 350 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner wpp --label WPP --agents 350 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner wpp --label WPP --agents 350 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --label CA-PIBT --agents 350 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --label CA-PIBT --agents 350 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --label CA-PIBT --agents 350 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --label CA-PIBT --agents 350 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --label CA-PIBT --agents 350 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 350 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 350 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 350 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 350 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 350 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 350 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 350 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 350 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 350 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 350 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 350 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 350 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 350 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 350 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 350 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner pibt --label PIBT --agents 400 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner pibt --label PIBT --agents 400 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner pibt --label PIBT --agents 400 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner pibt --label PIBT --agents 400 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner pibt --label PIBT --agents 400 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner hpibt --label H-PIBT --agents 400 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner hpibt --label H-PIBT --agents 400 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner hpibt --label H-PIBT --agents 400 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner hpibt --label H-PIBT --agents 400 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner hpibt --label H-PIBT --agents 400 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner wpp --label WPP --agents 400 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner wpp --label WPP --agents 400 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner wpp --label WPP --agents 400 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner wpp --label WPP --agents 400 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner wpp --label WPP --agents 400 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --label CA-PIBT --agents 400 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --label CA-PIBT --agents 400 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --label CA-PIBT --agents 400 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --label CA-PIBT --agents 400 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --label CA-PIBT --agents 400 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 400 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 400 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 400 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 400 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 400 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 400 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 400 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 400 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 400 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 400 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 400 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 400 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 400 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 400 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 400 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner pibt --label PIBT --agents 50 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner pibt --label PIBT --agents 50 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner pibt --label PIBT --agents 50 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner pibt --label PIBT --agents 50 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner pibt --label PIBT --agents 50 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner hpibt --label H-PIBT --agents 50 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner hpibt --label H-PIBT --agents 50 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner hpibt --label H-PIBT --agents 50 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner hpibt --label H-PIBT --agents 50 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner hpibt --label H-PIBT --agents 50 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner wpp --label WPP --agents 50 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner wpp --label WPP --agents 50 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner wpp --label WPP --agents 50 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner wpp --label WPP --agents 50 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner wpp --label WPP --agents 50 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --label CA-PIBT --agents 50 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --label CA-PIBT --agents 50 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --label CA-PIBT --agents 50 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --label CA-PIBT --agents 50 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --label CA-PIBT --agents 50 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 50 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 50 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 50 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 50 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 50 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 50 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 50 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 50 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 50 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 50 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 50 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 50 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 50 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 50 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 50 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner pibt --label PIBT --agents 100 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner pibt --label PIBT --agents 100 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner pibt --label PIBT --agents 100 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner pibt --label PIBT --agents 100 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner pibt --label PIBT --agents 100 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner hpibt --label H-PIBT --agents 100 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner hpibt --label H-PIBT --agents 100 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner hpibt --label H-PIBT --agents 100 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner hpibt --label H-PIBT --agents 100 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner hpibt --label H-PIBT --agents 100 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner wpp --label WPP --agents 100 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner wpp --label WPP --agents 100 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner wpp --label WPP --agents 100 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner wpp --label WPP --agents 100 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner wpp --label WPP --agents 100 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --label CA-PIBT --agents 100 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --label CA-PIBT --agents 100 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --label CA-PIBT --agents 100 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --label CA-PIBT --agents 100 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --label CA-PIBT --agents 100 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 100 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 100 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 100 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 100 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 100 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 100 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 100 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 100 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 100 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 100 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 100 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 100 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 100 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 100 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 100 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner pibt --label PIBT --agents 150 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner pibt --label PIBT --agents 150 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner pibt --label PIBT --agents 150 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner pibt --label PIBT --agents 150 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner pibt --label PIBT --agents 150 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner hpibt --label H-PIBT --agents 150 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner hpibt --label H-PIBT --agents 150 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner hpibt --label H-PIBT --agents 150 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner hpibt --label H-PIBT --agents 150 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner hpibt --label H-PIBT --agents 150 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner wpp --label WPP --agents 150 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner wpp --label WPP --agents 150 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner wpp --label WPP --agents 150 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner wpp --label WPP --agents 150 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner wpp --label WPP --agents 150 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --label CA-PIBT --agents 150 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --label CA-PIBT --agents 150 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --label CA-PIBT --agents 150 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --label CA-PIBT --agents 150 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --label CA-PIBT --agents 150 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 150 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 150 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 150 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 150 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 150 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 150 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 150 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 150 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 150 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 150 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 150 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 150 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 150 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 150 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 150 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner pibt --label PIBT --agents 200 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner pibt --label PIBT --agents 200 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner pibt --label PIBT --agents 200 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner pibt --label PIBT --agents 200 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner pibt --label PIBT --agents 200 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner hpibt --label H-PIBT --agents 200 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner hpibt --label H-PIBT --agents 200 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner hpibt --label H-PIBT --agents 200 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner hpibt --label H-PIBT --agents 200 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner hpibt --label H-PIBT --agents 200 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner wpp --label WPP --agents 200 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner wpp --label WPP --agents 200 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner wpp --label WPP --agents 200 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner wpp --label WPP --agents 200 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner wpp --label WPP --agents 200 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --label CA-PIBT --agents 200 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --label CA-PIBT --agents 200 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --label CA-PIBT --agents 200 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --label CA-PIBT --agents 200 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --label CA-PIBT --agents 200 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 200 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 200 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 200 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 200 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 200 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 200 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 200 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 200 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 200 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 200 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 200 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 200 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 200 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 200 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 200 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner pibt --label PIBT --agents 250 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner pibt --label PIBT --agents 250 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner pibt --label PIBT --agents 250 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner pibt --label PIBT --agents 250 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner pibt --label PIBT --agents 250 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner hpibt --label H-PIBT --agents 250 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner hpibt --label H-PIBT --agents 250 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner hpibt --label H-PIBT --agents 250 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner hpibt --label H-PIBT --agents 250 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner hpibt --label H-PIBT --agents 250 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner wpp --label WPP --agents 250 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner wpp --label WPP --agents 250 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner wpp --label WPP --agents 250 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner wpp --label WPP --agents 250 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner wpp --label WPP --agents 250 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --label CA-PIBT --agents 250 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --label CA-PIBT --agents 250 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --label CA-PIBT --agents 250 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --label CA-PIBT --agents 250 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --label CA-PIBT --agents 250 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 250 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 250 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 250 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 250 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 250 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 250 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 250 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 250 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 250 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 250 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 250 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 250 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 250 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 250 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 250 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner pibt --label PIBT --agents 300 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner pibt --label PIBT --agents 300 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner pibt --label PIBT --agents 300 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner pibt --label PIBT --agents 300 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner pibt --label PIBT --agents 300 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner hpibt --label H-PIBT --agents 300 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner hpibt --label H-PIBT --agents 300 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner hpibt --label H-PIBT --agents 300 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner hpibt --label H-PIBT --agents 300 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner hpibt --label H-PIBT --agents 300 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner wpp --label WPP --agents 300 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner wpp --label WPP --agents 300 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner wpp --label WPP --agents 300 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner wpp --label WPP --agents 300 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner wpp --label WPP --agents 300 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --label CA-PIBT --agents 300 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --label CA-PIBT --agents 300 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --label CA-PIBT --agents 300 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --label CA-PIBT --agents 300 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --label CA-PIBT --agents 300 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 300 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 300 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 300 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 300 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 300 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 300 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 300 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 300 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 300 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 300 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 300 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 300 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 300 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 300 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 300 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner pibt --label PIBT --agents 350 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner pibt --label PIBT --agents 350 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner pibt --label PIBT --agents 350 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner pibt --label PIBT --agents 350 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner pibt --label PIBT --agents 350 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner hpibt --label H-PIBT --agents 350 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner hpibt --label H-PIBT --agents 350 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner hpibt --label H-PIBT --agents 350 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner hpibt --label H-PIBT --agents 350 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner hpibt --label H-PIBT --agents 350 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner wpp --label WPP --agents 350 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner wpp --label WPP --agents 350 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner wpp --label WPP --agents 350 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner wpp --label WPP --agents 350 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner wpp --label WPP --agents 350 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --label CA-PIBT --agents 350 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --label CA-PIBT --agents 350 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --label CA-PIBT --agents 350 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --label CA-PIBT --agents 350 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --label CA-PIBT --agents 350 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 350 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 350 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 350 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 350 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 350 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 350 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 350 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 350 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 350 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 350 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 350 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 350 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 350 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 350 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 350 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner pibt --label PIBT --agents 400 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner pibt --label PIBT --agents 400 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner pibt --label PIBT --agents 400 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner pibt --label PIBT --agents 400 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner pibt --label PIBT --agents 400 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner hpibt --label H-PIBT --agents 400 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner hpibt --label H-PIBT --agents 400 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner hpibt --label H-PIBT --agents 400 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner hpibt --label H-PIBT --agents 400 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner hpibt --label H-PIBT --agents 400 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner wpp --label WPP --agents 400 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner wpp --label WPP --agents 400 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner wpp --label WPP --agents 400 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner wpp --label WPP --agents 400 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner wpp --label WPP --agents 400 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --label CA-PIBT --agents 400 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --label CA-PIBT --agents 400 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --label CA-PIBT --agents 400 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --label CA-PIBT --agents 400 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --label CA-PIBT --agents 400 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 400 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 400 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 400 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 400 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 400 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 400 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 400 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 400 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 400 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 400 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 400 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 400 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 400 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 400 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 400 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner pibt --label PIBT --agents 50 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner pibt --label PIBT --agents 50 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner pibt --label PIBT --agents 50 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner pibt --label PIBT --agents 50 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner pibt --label PIBT --agents 50 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner hpibt --label H-PIBT --agents 50 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner hpibt --label H-PIBT --agents 50 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner hpibt --label H-PIBT --agents 50 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner hpibt --label H-PIBT --agents 50 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner hpibt --label H-PIBT --agents 50 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner wpp --label WPP --agents 50 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner wpp --label WPP --agents 50 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner wpp --label WPP --agents 50 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner wpp --label WPP --agents 50 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner wpp --label WPP --agents 50 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --label CA-PIBT --agents 50 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --label CA-PIBT --agents 50 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --label CA-PIBT --agents 50 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --label CA-PIBT --agents 50 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --label CA-PIBT --agents 50 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 50 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 50 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 50 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 50 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 50 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 50 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 50 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 50 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 50 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 50 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 50 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 50 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 50 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 50 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 50 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner pibt --label PIBT --agents 100 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner pibt --label PIBT --agents 100 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner pibt --label PIBT --agents 100 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner pibt --label PIBT --agents 100 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner pibt --label PIBT --agents 100 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner hpibt --label H-PIBT --agents 100 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner hpibt --label H-PIBT --agents 100 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner hpibt --label H-PIBT --agents 100 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner hpibt --label H-PIBT --agents 100 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner hpibt --label H-PIBT --agents 100 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner wpp --label WPP --agents 100 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner wpp --label WPP --agents 100 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner wpp --label WPP --agents 100 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner wpp --label WPP --agents 100 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner wpp --label WPP --agents 100 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --label CA-PIBT --agents 100 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --label CA-PIBT --agents 100 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --label CA-PIBT --agents 100 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --label CA-PIBT --agents 100 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --label CA-PIBT --agents 100 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 100 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 100 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 100 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 100 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 100 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 100 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 100 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 100 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 100 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 100 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 100 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 100 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 100 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 100 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 100 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner pibt --label PIBT --agents 200 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner pibt --label PIBT --agents 200 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner pibt --label PIBT --agents 200 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner pibt --label PIBT --agents 200 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner pibt --label PIBT --agents 200 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner hpibt --label H-PIBT --agents 200 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner hpibt --label H-PIBT --agents 200 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner hpibt --label H-PIBT --agents 200 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner hpibt --label H-PIBT --agents 200 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner hpibt --label H-PIBT --agents 200 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner wpp --label WPP --agents 200 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner wpp --label WPP --agents 200 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner wpp --label WPP --agents 200 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner wpp --label WPP --agents 200 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner wpp --label WPP --agents 200 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --label CA-PIBT --agents 200 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --label CA-PIBT --agents 200 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --label CA-PIBT --agents 200 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --label CA-PIBT --agents 200 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --label CA-PIBT --agents 200 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 200 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 200 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 200 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 200 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 200 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 200 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 200 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 200 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 200 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 200 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 200 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 200 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 200 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 200 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 200 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner pibt --label PIBT --agents 300 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner pibt --label PIBT --agents 300 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner pibt --label PIBT --agents 300 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner pibt --label PIBT --agents 300 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner pibt --label PIBT --agents 300 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner hpibt --label H-PIBT --agents 300 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner hpibt --label H-PIBT --agents 300 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner hpibt --label H-PIBT --agents 300 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner hpibt --label H-PIBT --agents 300 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner hpibt --label H-PIBT --agents 300 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner wpp --label WPP --agents 300 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner wpp --label WPP --agents 300 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner wpp --label WPP --agents 300 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner wpp --label WPP --agents 300 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner wpp --label WPP --agents 300 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --label CA-PIBT --agents 300 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --label CA-PIBT --agents 300 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --label CA-PIBT --agents 300 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --label CA-PIBT --agents 300 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --label CA-PIBT --agents 300 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 300 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 300 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 300 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 300 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 300 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 300 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 300 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 300 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 300 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 300 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 300 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 300 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 300 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 300 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 300 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner pibt --label PIBT --agents 400 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner pibt --label PIBT --agents 400 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner pibt --label PIBT --agents 400 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner pibt --label PIBT --agents 400 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner pibt --label PIBT --agents 400 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner hpibt --label H-PIBT --agents 400 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner hpibt --label H-PIBT --agents 400 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner hpibt --label H-PIBT --agents 400 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner hpibt --label H-PIBT --agents 400 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner hpibt --label H-PIBT --agents 400 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner wpp --label WPP --agents 400 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner wpp --label WPP --agents 400 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner wpp --label WPP --agents 400 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner wpp --label WPP --agents 400 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner wpp --label WPP --agents 400 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --label CA-PIBT --agents 400 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --label CA-PIBT --agents 400 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --label CA-PIBT --agents 400 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --label CA-PIBT --agents 400 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --label CA-PIBT --agents 400 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 400 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 400 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 400 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 400 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 400 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 400 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 400 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 400 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 400 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 400 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 400 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 400 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 400 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 400 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 400 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner pibt --label PIBT --agents 500 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner pibt --label PIBT --agents 500 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner pibt --label PIBT --agents 500 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner pibt --label PIBT --agents 500 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner pibt --label PIBT --agents 500 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner hpibt --label H-PIBT --agents 500 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner hpibt --label H-PIBT --agents 500 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner hpibt --label H-PIBT --agents 500 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner hpibt --label H-PIBT --agents 500 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner hpibt --label H-PIBT --agents 500 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner wpp --label WPP --agents 500 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner wpp --label WPP --agents 500 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner wpp --label WPP --agents 500 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner wpp --label WPP --agents 500 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner wpp --label WPP --agents 500 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --label CA-PIBT --agents 500 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --label CA-PIBT --agents 500 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --label CA-PIBT --agents 500 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --label CA-PIBT --agents 500 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --label CA-PIBT --agents 500 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 500 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 500 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 500 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 500 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 500 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 500 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 500 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 500 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 500 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 500 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 500 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 500 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 500 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 500 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 500 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner pibt --label PIBT --agents 600 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner pibt --label PIBT --agents 600 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner pibt --label PIBT --agents 600 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner pibt --label PIBT --agents 600 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner pibt --label PIBT --agents 600 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner hpibt --label H-PIBT --agents 600 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner hpibt --label H-PIBT --agents 600 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner hpibt --label H-PIBT --agents 600 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner hpibt --label H-PIBT --agents 600 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner hpibt --label H-PIBT --agents 600 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner wpp --label WPP --agents 600 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner wpp --label WPP --agents 600 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner wpp --label WPP --agents 600 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner wpp --label WPP --agents 600 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner wpp --label WPP --agents 600 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --label CA-PIBT --agents 600 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --label CA-PIBT --agents 600 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --label CA-PIBT --agents 600 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --label CA-PIBT --agents 600 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --label CA-PIBT --agents 600 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 600 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 600 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 600 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 600 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 600 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 600 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 600 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 600 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 600 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 600 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 600 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 600 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 600 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 600 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/sortation_small.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 600 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner pibt --label PIBT --agents 50 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner pibt --label PIBT --agents 50 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner pibt --label PIBT --agents 50 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner pibt --label PIBT --agents 50 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner pibt --label PIBT --agents 50 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner hpibt --label H-PIBT --agents 50 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner hpibt --label H-PIBT --agents 50 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner hpibt --label H-PIBT --agents 50 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner hpibt --label H-PIBT --agents 50 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner hpibt --label H-PIBT --agents 50 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner wpp --label WPP --agents 50 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner wpp --label WPP --agents 50 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner wpp --label WPP --agents 50 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner wpp --label WPP --agents 50 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner wpp --label WPP --agents 50 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --label CA-PIBT --agents 50 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --label CA-PIBT --agents 50 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --label CA-PIBT --agents 50 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --label CA-PIBT --agents 50 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --label CA-PIBT --agents 50 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 50 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 50 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 50 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 50 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 50 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 50 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 50 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 50 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 50 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 50 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 50 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 50 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 50 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 50 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 50 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner pibt --label PIBT --agents 100 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner pibt --label PIBT --agents 100 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner pibt --label PIBT --agents 100 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner pibt --label PIBT --agents 100 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner pibt --label PIBT --agents 100 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner hpibt --label H-PIBT --agents 100 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner hpibt --label H-PIBT --agents 100 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner hpibt --label H-PIBT --agents 100 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner hpibt --label H-PIBT --agents 100 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner hpibt --label H-PIBT --agents 100 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner wpp --label WPP --agents 100 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner wpp --label WPP --agents 100 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner wpp --label WPP --agents 100 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner wpp --label WPP --agents 100 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner wpp --label WPP --agents 100 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --label CA-PIBT --agents 100 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --label CA-PIBT --agents 100 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --label CA-PIBT --agents 100 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --label CA-PIBT --agents 100 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --label CA-PIBT --agents 100 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 100 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 100 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 100 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 100 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 100 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 100 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 100 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 100 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 100 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 100 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 100 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 100 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 100 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 100 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 100 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner pibt --label PIBT --agents 150 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner pibt --label PIBT --agents 150 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner pibt --label PIBT --agents 150 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner pibt --label PIBT --agents 150 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner pibt --label PIBT --agents 150 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner hpibt --label H-PIBT --agents 150 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner hpibt --label H-PIBT --agents 150 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner hpibt --label H-PIBT --agents 150 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner hpibt --label H-PIBT --agents 150 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner hpibt --label H-PIBT --agents 150 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner wpp --label WPP --agents 150 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner wpp --label WPP --agents 150 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner wpp --label WPP --agents 150 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner wpp --label WPP --agents 150 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner wpp --label WPP --agents 150 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --label CA-PIBT --agents 150 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --label CA-PIBT --agents 150 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --label CA-PIBT --agents 150 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --label CA-PIBT --agents 150 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --label CA-PIBT --agents 150 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 150 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 150 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 150 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 150 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 150 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 150 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 150 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 150 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 150 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 150 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 150 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 150 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 150 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 150 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 150 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner pibt --label PIBT --agents 200 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner pibt --label PIBT --agents 200 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner pibt --label PIBT --agents 200 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner pibt --label PIBT --agents 200 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner pibt --label PIBT --agents 200 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner hpibt --label H-PIBT --agents 200 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner hpibt --label H-PIBT --agents 200 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner hpibt --label H-PIBT --agents 200 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner hpibt --label H-PIBT --agents 200 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner hpibt --label H-PIBT --agents 200 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner wpp --label WPP --agents 200 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner wpp --label WPP --agents 200 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner wpp --label WPP --agents 200 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner wpp --label WPP --agents 200 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner wpp --label WPP --agents 200 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --label CA-PIBT --agents 200 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --label CA-PIBT --agents 200 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --label CA-PIBT --agents 200 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --label CA-PIBT --agents 200 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --label CA-PIBT --agents 200 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 200 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 200 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 200 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 200 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 200 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 200 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 200 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 200 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 200 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 200 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 200 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 200 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 200 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 200 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 200 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner pibt --label PIBT --agents 250 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner pibt --label PIBT --agents 250 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner pibt --label PIBT --agents 250 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner pibt --label PIBT --agents 250 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner pibt --label PIBT --agents 250 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner hpibt --label H-PIBT --agents 250 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner hpibt --label H-PIBT --agents 250 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner hpibt --label H-PIBT --agents 250 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner hpibt --label H-PIBT --agents 250 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner hpibt --label H-PIBT --agents 250 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner wpp --label WPP --agents 250 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner wpp --label WPP --agents 250 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner wpp --label WPP --agents 250 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner wpp --label WPP --agents 250 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner wpp --label WPP --agents 250 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --label CA-PIBT --agents 250 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --label CA-PIBT --agents 250 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --label CA-PIBT --agents 250 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --label CA-PIBT --agents 250 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --label CA-PIBT --agents 250 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 250 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 250 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 250 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 250 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 250 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 250 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 250 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 250 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 250 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 250 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 250 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 250 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 250 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 250 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 250 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner pibt --label PIBT --agents 300 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner pibt --label PIBT --agents 300 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner pibt --label PIBT --agents 300 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner pibt --label PIBT --agents 300 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner pibt --label PIBT --agents 300 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner hpibt --label H-PIBT --agents 300 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner hpibt --label H-PIBT --agents 300 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner hpibt --label H-PIBT --agents 300 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner hpibt --label H-PIBT --agents 300 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner hpibt --label H-PIBT --agents 300 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner wpp --label WPP --agents 300 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner wpp --label WPP --agents 300 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner wpp --label WPP --agents 300 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner wpp --label WPP --agents 300 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner wpp --label WPP --agents 300 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --label CA-PIBT --agents 300 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --label CA-PIBT --agents 300 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --label CA-PIBT --agents 300 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --label CA-PIBT --agents 300 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --label CA-PIBT --agents 300 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 300 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 300 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 300 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 300 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --recover 0 --label CA-PIBT-noRecover --agents 300 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 300 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 300 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 300 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 300 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --cahw 0 --label CA-PIBT-noHighway --agents 300 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 300 --steps 1000 --seed 1 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 300 --steps 1000 --seed 2 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 300 --steps 1000 --seed 3 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 300 --steps 1000 --seed 4 --out ../results/main.csv >/dev/null
+./sim --map ../maps/random-32-32-20.map --planner capibt --alpha 0 --gamma 0 --label H-PIBT+Recover --agents 300 --steps 1000 --seed 5 --out ../results/main.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner pibt --label PIBT --agents 200 --steps 1000 --seed 1 --delay 0.05 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner pibt --label PIBT --agents 200 --steps 1000 --seed 2 --delay 0.05 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner pibt --label PIBT --agents 200 --steps 1000 --seed 3 --delay 0.05 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner pibt --label PIBT --agents 200 --steps 1000 --seed 4 --delay 0.05 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner pibt --label PIBT --agents 200 --steps 1000 --seed 5 --delay 0.05 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner pibt --label PIBT --agents 200 --steps 1000 --seed 1 --delay 0.1 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner pibt --label PIBT --agents 200 --steps 1000 --seed 2 --delay 0.1 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner pibt --label PIBT --agents 200 --steps 1000 --seed 3 --delay 0.1 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner pibt --label PIBT --agents 200 --steps 1000 --seed 4 --delay 0.1 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner pibt --label PIBT --agents 200 --steps 1000 --seed 5 --delay 0.1 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner pibt --label PIBT --agents 200 --steps 1000 --seed 1 --delay 0.2 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner pibt --label PIBT --agents 200 --steps 1000 --seed 2 --delay 0.2 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner pibt --label PIBT --agents 200 --steps 1000 --seed 3 --delay 0.2 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner pibt --label PIBT --agents 200 --steps 1000 --seed 4 --delay 0.2 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner pibt --label PIBT --agents 200 --steps 1000 --seed 5 --delay 0.2 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner hpibt --label H-PIBT --agents 200 --steps 1000 --seed 1 --delay 0.05 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner hpibt --label H-PIBT --agents 200 --steps 1000 --seed 2 --delay 0.05 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner hpibt --label H-PIBT --agents 200 --steps 1000 --seed 3 --delay 0.05 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner hpibt --label H-PIBT --agents 200 --steps 1000 --seed 4 --delay 0.05 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner hpibt --label H-PIBT --agents 200 --steps 1000 --seed 5 --delay 0.05 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner hpibt --label H-PIBT --agents 200 --steps 1000 --seed 1 --delay 0.1 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner hpibt --label H-PIBT --agents 200 --steps 1000 --seed 2 --delay 0.1 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner hpibt --label H-PIBT --agents 200 --steps 1000 --seed 3 --delay 0.1 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner hpibt --label H-PIBT --agents 200 --steps 1000 --seed 4 --delay 0.1 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner hpibt --label H-PIBT --agents 200 --steps 1000 --seed 5 --delay 0.1 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner hpibt --label H-PIBT --agents 200 --steps 1000 --seed 1 --delay 0.2 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner hpibt --label H-PIBT --agents 200 --steps 1000 --seed 2 --delay 0.2 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner hpibt --label H-PIBT --agents 200 --steps 1000 --seed 3 --delay 0.2 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner hpibt --label H-PIBT --agents 200 --steps 1000 --seed 4 --delay 0.2 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner hpibt --label H-PIBT --agents 200 --steps 1000 --seed 5 --delay 0.2 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner wpp --label WPP --agents 200 --steps 1000 --seed 1 --delay 0.05 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner wpp --label WPP --agents 200 --steps 1000 --seed 2 --delay 0.05 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner wpp --label WPP --agents 200 --steps 1000 --seed 3 --delay 0.05 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner wpp --label WPP --agents 200 --steps 1000 --seed 4 --delay 0.05 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner wpp --label WPP --agents 200 --steps 1000 --seed 5 --delay 0.05 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner wpp --label WPP --agents 200 --steps 1000 --seed 1 --delay 0.1 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner wpp --label WPP --agents 200 --steps 1000 --seed 2 --delay 0.1 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner wpp --label WPP --agents 200 --steps 1000 --seed 3 --delay 0.1 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner wpp --label WPP --agents 200 --steps 1000 --seed 4 --delay 0.1 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner wpp --label WPP --agents 200 --steps 1000 --seed 5 --delay 0.1 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner wpp --label WPP --agents 200 --steps 1000 --seed 1 --delay 0.2 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner wpp --label WPP --agents 200 --steps 1000 --seed 2 --delay 0.2 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner wpp --label WPP --agents 200 --steps 1000 --seed 3 --delay 0.2 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner wpp --label WPP --agents 200 --steps 1000 --seed 4 --delay 0.2 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner wpp --label WPP --agents 200 --steps 1000 --seed 5 --delay 0.2 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --label CA-PIBT --agents 200 --steps 1000 --seed 1 --delay 0.05 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --label CA-PIBT --agents 200 --steps 1000 --seed 2 --delay 0.05 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --label CA-PIBT --agents 200 --steps 1000 --seed 3 --delay 0.05 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --label CA-PIBT --agents 200 --steps 1000 --seed 4 --delay 0.05 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --label CA-PIBT --agents 200 --steps 1000 --seed 5 --delay 0.05 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --label CA-PIBT --agents 200 --steps 1000 --seed 1 --delay 0.1 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --label CA-PIBT --agents 200 --steps 1000 --seed 2 --delay 0.1 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --label CA-PIBT --agents 200 --steps 1000 --seed 3 --delay 0.1 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --label CA-PIBT --agents 200 --steps 1000 --seed 4 --delay 0.1 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --label CA-PIBT --agents 200 --steps 1000 --seed 5 --delay 0.1 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --label CA-PIBT --agents 200 --steps 1000 --seed 1 --delay 0.2 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --label CA-PIBT --agents 200 --steps 1000 --seed 2 --delay 0.2 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --label CA-PIBT --agents 200 --steps 1000 --seed 3 --delay 0.2 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --label CA-PIBT --agents 200 --steps 1000 --seed 4 --delay 0.2 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --label CA-PIBT --agents 200 --steps 1000 --seed 5 --delay 0.2 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner pibt --label PIBT --agents 300 --steps 1000 --seed 1 --delay 0.05 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner pibt --label PIBT --agents 300 --steps 1000 --seed 2 --delay 0.05 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner pibt --label PIBT --agents 300 --steps 1000 --seed 3 --delay 0.05 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner pibt --label PIBT --agents 300 --steps 1000 --seed 4 --delay 0.05 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner pibt --label PIBT --agents 300 --steps 1000 --seed 5 --delay 0.05 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner pibt --label PIBT --agents 300 --steps 1000 --seed 1 --delay 0.1 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner pibt --label PIBT --agents 300 --steps 1000 --seed 2 --delay 0.1 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner pibt --label PIBT --agents 300 --steps 1000 --seed 3 --delay 0.1 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner pibt --label PIBT --agents 300 --steps 1000 --seed 4 --delay 0.1 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner pibt --label PIBT --agents 300 --steps 1000 --seed 5 --delay 0.1 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner pibt --label PIBT --agents 300 --steps 1000 --seed 1 --delay 0.2 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner pibt --label PIBT --agents 300 --steps 1000 --seed 2 --delay 0.2 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner pibt --label PIBT --agents 300 --steps 1000 --seed 3 --delay 0.2 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner pibt --label PIBT --agents 300 --steps 1000 --seed 4 --delay 0.2 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner pibt --label PIBT --agents 300 --steps 1000 --seed 5 --delay 0.2 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner hpibt --label H-PIBT --agents 300 --steps 1000 --seed 1 --delay 0.05 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner hpibt --label H-PIBT --agents 300 --steps 1000 --seed 2 --delay 0.05 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner hpibt --label H-PIBT --agents 300 --steps 1000 --seed 3 --delay 0.05 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner hpibt --label H-PIBT --agents 300 --steps 1000 --seed 4 --delay 0.05 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner hpibt --label H-PIBT --agents 300 --steps 1000 --seed 5 --delay 0.05 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner hpibt --label H-PIBT --agents 300 --steps 1000 --seed 1 --delay 0.1 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner hpibt --label H-PIBT --agents 300 --steps 1000 --seed 2 --delay 0.1 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner hpibt --label H-PIBT --agents 300 --steps 1000 --seed 3 --delay 0.1 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner hpibt --label H-PIBT --agents 300 --steps 1000 --seed 4 --delay 0.1 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner hpibt --label H-PIBT --agents 300 --steps 1000 --seed 5 --delay 0.1 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner hpibt --label H-PIBT --agents 300 --steps 1000 --seed 1 --delay 0.2 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner hpibt --label H-PIBT --agents 300 --steps 1000 --seed 2 --delay 0.2 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner hpibt --label H-PIBT --agents 300 --steps 1000 --seed 3 --delay 0.2 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner hpibt --label H-PIBT --agents 300 --steps 1000 --seed 4 --delay 0.2 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner hpibt --label H-PIBT --agents 300 --steps 1000 --seed 5 --delay 0.2 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner wpp --label WPP --agents 300 --steps 1000 --seed 1 --delay 0.05 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner wpp --label WPP --agents 300 --steps 1000 --seed 2 --delay 0.05 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner wpp --label WPP --agents 300 --steps 1000 --seed 3 --delay 0.05 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner wpp --label WPP --agents 300 --steps 1000 --seed 4 --delay 0.05 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner wpp --label WPP --agents 300 --steps 1000 --seed 5 --delay 0.05 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner wpp --label WPP --agents 300 --steps 1000 --seed 1 --delay 0.1 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner wpp --label WPP --agents 300 --steps 1000 --seed 2 --delay 0.1 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner wpp --label WPP --agents 300 --steps 1000 --seed 3 --delay 0.1 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner wpp --label WPP --agents 300 --steps 1000 --seed 4 --delay 0.1 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner wpp --label WPP --agents 300 --steps 1000 --seed 5 --delay 0.1 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner wpp --label WPP --agents 300 --steps 1000 --seed 1 --delay 0.2 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner wpp --label WPP --agents 300 --steps 1000 --seed 2 --delay 0.2 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner wpp --label WPP --agents 300 --steps 1000 --seed 3 --delay 0.2 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner wpp --label WPP --agents 300 --steps 1000 --seed 4 --delay 0.2 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner wpp --label WPP --agents 300 --steps 1000 --seed 5 --delay 0.2 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --label CA-PIBT --agents 300 --steps 1000 --seed 1 --delay 0.05 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --label CA-PIBT --agents 300 --steps 1000 --seed 2 --delay 0.05 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --label CA-PIBT --agents 300 --steps 1000 --seed 3 --delay 0.05 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --label CA-PIBT --agents 300 --steps 1000 --seed 4 --delay 0.05 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --label CA-PIBT --agents 300 --steps 1000 --seed 5 --delay 0.05 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --label CA-PIBT --agents 300 --steps 1000 --seed 1 --delay 0.1 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --label CA-PIBT --agents 300 --steps 1000 --seed 2 --delay 0.1 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --label CA-PIBT --agents 300 --steps 1000 --seed 3 --delay 0.1 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --label CA-PIBT --agents 300 --steps 1000 --seed 4 --delay 0.1 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --label CA-PIBT --agents 300 --steps 1000 --seed 5 --delay 0.1 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --label CA-PIBT --agents 300 --steps 1000 --seed 1 --delay 0.2 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --label CA-PIBT --agents 300 --steps 1000 --seed 2 --delay 0.2 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --label CA-PIBT --agents 300 --steps 1000 --seed 3 --delay 0.2 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --label CA-PIBT --agents 300 --steps 1000 --seed 4 --delay 0.2 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_small.map --planner capibt --label CA-PIBT --agents 300 --steps 1000 --seed 5 --delay 0.2 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner pibt --label PIBT --agents 200 --steps 1000 --seed 1 --delay 0.05 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner pibt --label PIBT --agents 200 --steps 1000 --seed 2 --delay 0.05 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner pibt --label PIBT --agents 200 --steps 1000 --seed 3 --delay 0.05 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner pibt --label PIBT --agents 200 --steps 1000 --seed 4 --delay 0.05 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner pibt --label PIBT --agents 200 --steps 1000 --seed 5 --delay 0.05 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner pibt --label PIBT --agents 200 --steps 1000 --seed 1 --delay 0.1 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner pibt --label PIBT --agents 200 --steps 1000 --seed 2 --delay 0.1 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner pibt --label PIBT --agents 200 --steps 1000 --seed 3 --delay 0.1 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner pibt --label PIBT --agents 200 --steps 1000 --seed 4 --delay 0.1 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner pibt --label PIBT --agents 200 --steps 1000 --seed 5 --delay 0.1 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner pibt --label PIBT --agents 200 --steps 1000 --seed 1 --delay 0.2 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner pibt --label PIBT --agents 200 --steps 1000 --seed 2 --delay 0.2 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner pibt --label PIBT --agents 200 --steps 1000 --seed 3 --delay 0.2 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner pibt --label PIBT --agents 200 --steps 1000 --seed 4 --delay 0.2 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner pibt --label PIBT --agents 200 --steps 1000 --seed 5 --delay 0.2 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner hpibt --label H-PIBT --agents 200 --steps 1000 --seed 1 --delay 0.05 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner hpibt --label H-PIBT --agents 200 --steps 1000 --seed 2 --delay 0.05 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner hpibt --label H-PIBT --agents 200 --steps 1000 --seed 3 --delay 0.05 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner hpibt --label H-PIBT --agents 200 --steps 1000 --seed 4 --delay 0.05 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner hpibt --label H-PIBT --agents 200 --steps 1000 --seed 5 --delay 0.05 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner hpibt --label H-PIBT --agents 200 --steps 1000 --seed 1 --delay 0.1 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner hpibt --label H-PIBT --agents 200 --steps 1000 --seed 2 --delay 0.1 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner hpibt --label H-PIBT --agents 200 --steps 1000 --seed 3 --delay 0.1 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner hpibt --label H-PIBT --agents 200 --steps 1000 --seed 4 --delay 0.1 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner hpibt --label H-PIBT --agents 200 --steps 1000 --seed 5 --delay 0.1 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner hpibt --label H-PIBT --agents 200 --steps 1000 --seed 1 --delay 0.2 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner hpibt --label H-PIBT --agents 200 --steps 1000 --seed 2 --delay 0.2 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner hpibt --label H-PIBT --agents 200 --steps 1000 --seed 3 --delay 0.2 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner hpibt --label H-PIBT --agents 200 --steps 1000 --seed 4 --delay 0.2 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner hpibt --label H-PIBT --agents 200 --steps 1000 --seed 5 --delay 0.2 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner wpp --label WPP --agents 200 --steps 1000 --seed 1 --delay 0.05 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner wpp --label WPP --agents 200 --steps 1000 --seed 2 --delay 0.05 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner wpp --label WPP --agents 200 --steps 1000 --seed 3 --delay 0.05 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner wpp --label WPP --agents 200 --steps 1000 --seed 4 --delay 0.05 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner wpp --label WPP --agents 200 --steps 1000 --seed 5 --delay 0.05 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner wpp --label WPP --agents 200 --steps 1000 --seed 1 --delay 0.1 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner wpp --label WPP --agents 200 --steps 1000 --seed 2 --delay 0.1 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner wpp --label WPP --agents 200 --steps 1000 --seed 3 --delay 0.1 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner wpp --label WPP --agents 200 --steps 1000 --seed 4 --delay 0.1 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner wpp --label WPP --agents 200 --steps 1000 --seed 5 --delay 0.1 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner wpp --label WPP --agents 200 --steps 1000 --seed 1 --delay 0.2 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner wpp --label WPP --agents 200 --steps 1000 --seed 2 --delay 0.2 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner wpp --label WPP --agents 200 --steps 1000 --seed 3 --delay 0.2 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner wpp --label WPP --agents 200 --steps 1000 --seed 4 --delay 0.2 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner wpp --label WPP --agents 200 --steps 1000 --seed 5 --delay 0.2 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --label CA-PIBT --agents 200 --steps 1000 --seed 1 --delay 0.05 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --label CA-PIBT --agents 200 --steps 1000 --seed 2 --delay 0.05 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --label CA-PIBT --agents 200 --steps 1000 --seed 3 --delay 0.05 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --label CA-PIBT --agents 200 --steps 1000 --seed 4 --delay 0.05 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --label CA-PIBT --agents 200 --steps 1000 --seed 5 --delay 0.05 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --label CA-PIBT --agents 200 --steps 1000 --seed 1 --delay 0.1 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --label CA-PIBT --agents 200 --steps 1000 --seed 2 --delay 0.1 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --label CA-PIBT --agents 200 --steps 1000 --seed 3 --delay 0.1 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --label CA-PIBT --agents 200 --steps 1000 --seed 4 --delay 0.1 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --label CA-PIBT --agents 200 --steps 1000 --seed 5 --delay 0.1 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --label CA-PIBT --agents 200 --steps 1000 --seed 1 --delay 0.2 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --label CA-PIBT --agents 200 --steps 1000 --seed 2 --delay 0.2 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --label CA-PIBT --agents 200 --steps 1000 --seed 3 --delay 0.2 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --label CA-PIBT --agents 200 --steps 1000 --seed 4 --delay 0.2 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --label CA-PIBT --agents 200 --steps 1000 --seed 5 --delay 0.2 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner pibt --label PIBT --agents 300 --steps 1000 --seed 1 --delay 0.05 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner pibt --label PIBT --agents 300 --steps 1000 --seed 2 --delay 0.05 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner pibt --label PIBT --agents 300 --steps 1000 --seed 3 --delay 0.05 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner pibt --label PIBT --agents 300 --steps 1000 --seed 4 --delay 0.05 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner pibt --label PIBT --agents 300 --steps 1000 --seed 5 --delay 0.05 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner pibt --label PIBT --agents 300 --steps 1000 --seed 1 --delay 0.1 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner pibt --label PIBT --agents 300 --steps 1000 --seed 2 --delay 0.1 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner pibt --label PIBT --agents 300 --steps 1000 --seed 3 --delay 0.1 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner pibt --label PIBT --agents 300 --steps 1000 --seed 4 --delay 0.1 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner pibt --label PIBT --agents 300 --steps 1000 --seed 5 --delay 0.1 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner pibt --label PIBT --agents 300 --steps 1000 --seed 1 --delay 0.2 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner pibt --label PIBT --agents 300 --steps 1000 --seed 2 --delay 0.2 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner pibt --label PIBT --agents 300 --steps 1000 --seed 3 --delay 0.2 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner pibt --label PIBT --agents 300 --steps 1000 --seed 4 --delay 0.2 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner pibt --label PIBT --agents 300 --steps 1000 --seed 5 --delay 0.2 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner hpibt --label H-PIBT --agents 300 --steps 1000 --seed 1 --delay 0.05 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner hpibt --label H-PIBT --agents 300 --steps 1000 --seed 2 --delay 0.05 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner hpibt --label H-PIBT --agents 300 --steps 1000 --seed 3 --delay 0.05 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner hpibt --label H-PIBT --agents 300 --steps 1000 --seed 4 --delay 0.05 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner hpibt --label H-PIBT --agents 300 --steps 1000 --seed 5 --delay 0.05 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner hpibt --label H-PIBT --agents 300 --steps 1000 --seed 1 --delay 0.1 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner hpibt --label H-PIBT --agents 300 --steps 1000 --seed 2 --delay 0.1 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner hpibt --label H-PIBT --agents 300 --steps 1000 --seed 3 --delay 0.1 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner hpibt --label H-PIBT --agents 300 --steps 1000 --seed 4 --delay 0.1 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner hpibt --label H-PIBT --agents 300 --steps 1000 --seed 5 --delay 0.1 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner hpibt --label H-PIBT --agents 300 --steps 1000 --seed 1 --delay 0.2 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner hpibt --label H-PIBT --agents 300 --steps 1000 --seed 2 --delay 0.2 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner hpibt --label H-PIBT --agents 300 --steps 1000 --seed 3 --delay 0.2 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner hpibt --label H-PIBT --agents 300 --steps 1000 --seed 4 --delay 0.2 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner hpibt --label H-PIBT --agents 300 --steps 1000 --seed 5 --delay 0.2 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner wpp --label WPP --agents 300 --steps 1000 --seed 1 --delay 0.05 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner wpp --label WPP --agents 300 --steps 1000 --seed 2 --delay 0.05 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner wpp --label WPP --agents 300 --steps 1000 --seed 3 --delay 0.05 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner wpp --label WPP --agents 300 --steps 1000 --seed 4 --delay 0.05 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner wpp --label WPP --agents 300 --steps 1000 --seed 5 --delay 0.05 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner wpp --label WPP --agents 300 --steps 1000 --seed 1 --delay 0.1 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner wpp --label WPP --agents 300 --steps 1000 --seed 2 --delay 0.1 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner wpp --label WPP --agents 300 --steps 1000 --seed 3 --delay 0.1 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner wpp --label WPP --agents 300 --steps 1000 --seed 4 --delay 0.1 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner wpp --label WPP --agents 300 --steps 1000 --seed 5 --delay 0.1 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner wpp --label WPP --agents 300 --steps 1000 --seed 1 --delay 0.2 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner wpp --label WPP --agents 300 --steps 1000 --seed 2 --delay 0.2 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner wpp --label WPP --agents 300 --steps 1000 --seed 3 --delay 0.2 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner wpp --label WPP --agents 300 --steps 1000 --seed 4 --delay 0.2 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner wpp --label WPP --agents 300 --steps 1000 --seed 5 --delay 0.2 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --label CA-PIBT --agents 300 --steps 1000 --seed 1 --delay 0.05 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --label CA-PIBT --agents 300 --steps 1000 --seed 2 --delay 0.05 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --label CA-PIBT --agents 300 --steps 1000 --seed 3 --delay 0.05 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --label CA-PIBT --agents 300 --steps 1000 --seed 4 --delay 0.05 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --label CA-PIBT --agents 300 --steps 1000 --seed 5 --delay 0.05 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --label CA-PIBT --agents 300 --steps 1000 --seed 1 --delay 0.1 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --label CA-PIBT --agents 300 --steps 1000 --seed 2 --delay 0.1 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --label CA-PIBT --agents 300 --steps 1000 --seed 3 --delay 0.1 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --label CA-PIBT --agents 300 --steps 1000 --seed 4 --delay 0.1 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --label CA-PIBT --agents 300 --steps 1000 --seed 5 --delay 0.1 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --label CA-PIBT --agents 300 --steps 1000 --seed 1 --delay 0.2 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --label CA-PIBT --agents 300 --steps 1000 --seed 2 --delay 0.2 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --label CA-PIBT --agents 300 --steps 1000 --seed 3 --delay 0.2 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --label CA-PIBT --agents 300 --steps 1000 --seed 4 --delay 0.2 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/kiva.map --planner capibt --label CA-PIBT --agents 300 --steps 1000 --seed 5 --delay 0.2 --out ../results/delay.csv >/dev/null
+./sim --map ../maps/warehouse_large.map --planner pibt --label PIBT --agents 1000 --steps 1000 --seed 1 --out ../results/large.csv >/dev/null
+./sim --map ../maps/warehouse_large.map --planner pibt --label PIBT --agents 1000 --steps 1000 --seed 2 --out ../results/large.csv >/dev/null
+./sim --map ../maps/warehouse_large.map --planner pibt --label PIBT --agents 1000 --steps 1000 --seed 3 --out ../results/large.csv >/dev/null
+./sim --map ../maps/warehouse_large.map --planner hpibt --label H-PIBT --agents 1000 --steps 1000 --seed 1 --out ../results/large.csv >/dev/null
+./sim --map ../maps/warehouse_large.map --planner hpibt --label H-PIBT --agents 1000 --steps 1000 --seed 2 --out ../results/large.csv >/dev/null
+./sim --map ../maps/warehouse_large.map --planner hpibt --label H-PIBT --agents 1000 --steps 1000 --seed 3 --out ../results/large.csv >/dev/null
+./sim --map ../maps/warehouse_large.map --planner capibt --label CA-PIBT --agents 1000 --steps 1000 --seed 1 --out ../results/large.csv >/dev/null
+./sim --map ../maps/warehouse_large.map --planner capibt --label CA-PIBT --agents 1000 --steps 1000 --seed 2 --out ../results/large.csv >/dev/null
+./sim --map ../maps/warehouse_large.map --planner capibt --label CA-PIBT --agents 1000 --steps 1000 --seed 3 --out ../results/large.csv >/dev/null
+./sim --map ../maps/warehouse_large.map --planner pibt --label PIBT --agents 2000 --steps 1000 --seed 1 --out ../results/large.csv >/dev/null
+./sim --map ../maps/warehouse_large.map --planner pibt --label PIBT --agents 2000 --steps 1000 --seed 2 --out ../results/large.csv >/dev/null
+./sim --map ../maps/warehouse_large.map --planner pibt --label PIBT --agents 2000 --steps 1000 --seed 3 --out ../results/large.csv >/dev/null
+./sim --map ../maps/warehouse_large.map --planner hpibt --label H-PIBT --agents 2000 --steps 1000 --seed 1 --out ../results/large.csv >/dev/null
+./sim --map ../maps/warehouse_large.map --planner hpibt --label H-PIBT --agents 2000 --steps 1000 --seed 2 --out ../results/large.csv >/dev/null
+./sim --map ../maps/warehouse_large.map --planner hpibt --label H-PIBT --agents 2000 --steps 1000 --seed 3 --out ../results/large.csv >/dev/null
+./sim --map ../maps/warehouse_large.map --planner capibt --label CA-PIBT --agents 2000 --steps 1000 --seed 1 --out ../results/large.csv >/dev/null
+./sim --map ../maps/warehouse_large.map --planner capibt --label CA-PIBT --agents 2000 --steps 1000 --seed 2 --out ../results/large.csv >/dev/null
+./sim --map ../maps/warehouse_large.map --planner capibt --label CA-PIBT --agents 2000 --steps 1000 --seed 3 --out ../results/large.csv >/dev/null
+./sim --map ../maps/warehouse_large.map --planner pibt --label PIBT --agents 3000 --steps 1000 --seed 1 --out ../results/large.csv >/dev/null
+./sim --map ../maps/warehouse_large.map --planner pibt --label PIBT --agents 3000 --steps 1000 --seed 2 --out ../results/large.csv >/dev/null
+./sim --map ../maps/warehouse_large.map --planner pibt --label PIBT --agents 3000 --steps 1000 --seed 3 --out ../results/large.csv >/dev/null
+./sim --map ../maps/warehouse_large.map --planner hpibt --label H-PIBT --agents 3000 --steps 1000 --seed 1 --out ../results/large.csv >/dev/null
+./sim --map ../maps/warehouse_large.map --planner hpibt --label H-PIBT --agents 3000 --steps 1000 --seed 2 --out ../results/large.csv >/dev/null
+./sim --map ../maps/warehouse_large.map --planner hpibt --label H-PIBT --agents 3000 --steps 1000 --seed 3 --out ../results/large.csv >/dev/null
+./sim --map ../maps/warehouse_large.map --planner capibt --label CA-PIBT --agents 3000 --steps 1000 --seed 1 --out ../results/large.csv >/dev/null
+./sim --map ../maps/warehouse_large.map --planner capibt --label CA-PIBT --agents 3000 --steps 1000 --seed 2 --out ../results/large.csv >/dev/null
+./sim --map ../maps/warehouse_large.map --planner capibt --label CA-PIBT --agents 3000 --steps 1000 --seed 3 --out ../results/large.csv >/dev/null
+./sim --map ../maps/warehouse_large.map --planner pibt --label PIBT --agents 4000 --steps 1000 --seed 1 --out ../results/large.csv >/dev/null
+./sim --map ../maps/warehouse_large.map --planner pibt --label PIBT --agents 4000 --steps 1000 --seed 2 --out ../results/large.csv >/dev/null
+./sim --map ../maps/warehouse_large.map --planner pibt --label PIBT --agents 4000 --steps 1000 --seed 3 --out ../results/large.csv >/dev/null
+./sim --map ../maps/warehouse_large.map --planner hpibt --label H-PIBT --agents 4000 --steps 1000 --seed 1 --out ../results/large.csv >/dev/null
+./sim --map ../maps/warehouse_large.map --planner hpibt --label H-PIBT --agents 4000 --steps 1000 --seed 2 --out ../results/large.csv >/dev/null
+./sim --map ../maps/warehouse_large.map --planner hpibt --label H-PIBT --agents 4000 --steps 1000 --seed 3 --out ../results/large.csv >/dev/null
+./sim --map ../maps/warehouse_large.map --planner capibt --label CA-PIBT --agents 4000 --steps 1000 --seed 1 --out ../results/large.csv >/dev/null
+./sim --map ../maps/warehouse_large.map --planner capibt --label CA-PIBT --agents 4000 --steps 1000 --seed 2 --out ../results/large.csv >/dev/null
+./sim --map ../maps/warehouse_large.map --planner capibt --label CA-PIBT --agents 4000 --steps 1000 --seed 3 --out ../results/large.csv >/dev/null
